@@ -212,7 +212,7 @@ class pydelzo:
 
                 t += 2
          
-                for ii in xrange(t):
+                for ii in range(t):
                     dst[op+ii] = dst[m_pos+ii]
                 op += t
                 m_pos += t
@@ -251,3 +251,4 @@ class pydelzo:
             return pydelzo.LZO_E_ERROR;
 
         return pydelzo.LZO_E_OK;
+
